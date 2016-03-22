@@ -1,9 +1,11 @@
 * {
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 h1 {
     text-align: center;
+    font-size: 1.75em;
 }
 
 section {
@@ -14,7 +16,7 @@ section {
 }
 
 p {
-    margin-top: 20px;
+    margin-top: 25px;
 }
 
 div.row>div {
@@ -28,6 +30,7 @@ section>p.title {
     margin: 0;
     padding: 5px 0;
     font-weight: bold;
+    font-size: 1.25em;
     position: absolute;
     top: 0;
     right: 0;
