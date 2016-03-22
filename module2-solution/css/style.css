@@ -18,7 +18,7 @@ p {
 }
 
 div.row>div {
-    padding: 5px;
+    padding: 10px;
 }
 
 section>p.title {
@@ -33,19 +33,19 @@ section>p.title {
     right: 0;
 }
 
-section:nth-child(1)>p.title {
+div>div:nth-child(1)>section>p.title {
     background-color: pink;
     color: black;
 }
 
 
-section:nth-child(2)>p.title {
+div>div:nth-child(2)>section>p.title {
     background-color: brown;
     color: white;
 }
 
 
-section:nth-child(3)>p.title {
+div>div:nth-child(3)>section>p.title {
     background-color: beige;
     color: black;
 }
